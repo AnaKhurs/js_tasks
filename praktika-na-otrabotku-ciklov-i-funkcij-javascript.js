@@ -67,8 +67,17 @@ console.log(sum);
 
 let s = 0;
 for (let i = 0; i < arr2.length; i++) {
-	s += arr2[i]*arr2[i];
+	s += arr2[i] * arr2[i];
 }
 console.log(s);
 
 //12. Дан массив с числами. Найдите среднее арифметическое его элементов (сумма элементов, делить на количество). 
+let arr3 = [1, 3, 5, 7, 0, 7, 6, 45, 23, 5];
+let r = 0;
+let sum3 = 0;
+for (let i = 0; i < arr3.length; i++) {
+	sum3 += arr3[i];
+}
+debugger;
+r = sum3 / arr3.length
+console.log(r);
